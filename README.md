@@ -1,24 +1,30 @@
-ToDo:
+# QR Maker 
 
+This python script transforms a list in a txt file into multiple QR-Codes.
 
-1. Change qr_list.txt as follows:
+Made with macOS, Python3.
+(the runQR.command is just to avoid the terminal)
 
-Name, QR_Content
-Name, QR_Content
-...
+# Follow these steps
+
+## Change qr_list.txt as follows:
+
+	Name, QR_Content
+	Name, QR_Content
+	...
 
 e.g.
 
-Max Mustermann, http://www.google.com
-Anna Ananas, http://www.annaananas.an
+	Max Mustermann, http://www.google.com
+	Anna Ananas, http://www.annaananas.an
 
 
-2. double click runQR.command
+## double click runQR.command
 
-3. find QR codes in folder qrCodes 
+## find QR codes in folder qrCodes 
 	
-Max Mustermann.png
-Anna Ananas.png
+	Max Mustermann.png
+	Anna Ananas.png
 
 
 # qrMaker
